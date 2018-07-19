@@ -27,7 +27,6 @@ int main()
 	int turn=1;
 	int x;
 	char y;
-	chessboard[15][15]=0;                      //problem:why the chessboard[15][15] will be 255???
 	cout<<"Five in a row:\nHere are the rules:\nPlayer.1's symbol:X\nPlayer.2's symbol:O\nPlease input Number+Letter\nExample:10 A(Then click Enter)\nWarning: Inputing illegal characters may cause error!\n";
 	system("pause");
 	display();
